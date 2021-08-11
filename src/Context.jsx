@@ -3,7 +3,7 @@ import items from './data';
 
 const CarContext = React.createContext();
 
-export default class CarProvider extends Component {
+class CarProvider extends Component {
     state = {
         cars: [],
         sortedCars: [],
