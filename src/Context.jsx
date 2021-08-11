@@ -36,9 +36,9 @@ class CarProvider extends Component {
         return tempItems
     }
 
-    getCar = (slug) => {
+    getCar = slug => {
         let tempCars = [...this.state.cars];
-        const car = tempCars.find((car) => car.slug === slug);
+        const car = tempCars.find(car => car.slug === slug);
         return car
     }
 
